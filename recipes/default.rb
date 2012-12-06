@@ -18,3 +18,13 @@ template "/root/.bashrc" do
     :zone_name => zone
   })
 end
+
+template "/etc/bash.bashrc" do
+  source "bash.bashrc.erb"
+  mode 0644
+  owner "root"
+  group "root"
+  variables({
+    :zone_name => zone
+  })
+end
