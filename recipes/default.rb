@@ -28,3 +28,14 @@ template "/etc/bash.bashrc" do
     :zone_name => zone
   })
 end
+
+template "/etc/skel/.bashrc" do
+  source "bashrc.erb"
+  mode 0644
+  owner "root"
+  group "root"
+  variables({
+    :zone_name => zone
+  })
+end
+
