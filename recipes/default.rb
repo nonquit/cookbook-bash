@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-zone = data_bag_item(:zones, node.chef_environment)['name']
+zone = node["fqdn"].split(".")[2]
 
 package "bash" do
   action :upgrade
