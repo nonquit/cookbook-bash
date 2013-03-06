@@ -54,4 +54,6 @@ template "/etc/skel/.bashrc" do
   variables(
     :zone_name => zone
   )
-end
+
+  action :nothing
+end.run_action :create
