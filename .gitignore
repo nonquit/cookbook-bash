@@ -1,0 +1,4 @@
+.bundle/
+.cookbooks/
+Berksfile.lock
+xmlout/
