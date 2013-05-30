@@ -18,6 +18,14 @@ Usage
 ]
 ```
 
+
+Testing
+=======
+
+    $ bundle install
+    $ bundle exec berks install
+    $ bundle exec strainer test
+
 ## License and Author
 
 Author:: Abel Lopez alop@att.com
