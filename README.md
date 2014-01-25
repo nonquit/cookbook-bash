@@ -22,15 +22,13 @@ Usage
 Testing
 =======
 
-    $ bundle install
-    $ bundle exec berks install
-    $ bundle exec strainer test
+See SilverLining documentation
 
 ## License and Author
 
 Author:: Abel Lopez alop@att.com
 
-Copyright 2012-2013, Abel Lopez
+Copyright 2012-2014, Abel Lopez
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
