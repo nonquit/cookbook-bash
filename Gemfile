@@ -5,4 +5,3 @@ gem "json", "<= 1.7.7" # chef dependency
 gem "berkshelf", "~> 2.0.13"
 gem "chefspec", "~> 1.2.0"
 gem "foodcritic"
-gem "strainer"

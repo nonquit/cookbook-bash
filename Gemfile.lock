@@ -27,7 +27,6 @@ GEM
       varia_model (~> 0.1)
     buff-extensions (0.5.0)
     buff-ignore (1.1.1)
-    buff-platform (0.1.0)
     buff-ruby_engine (0.1.0)
     buff-shell_out (0.1.1)
       buff-ruby_engine (~> 0.1.0)
@@ -178,9 +177,6 @@ GEM
       nori (~> 1.0)
       wasabi (~> 1.0)
     solve (0.8.2)
-    strainer (3.3.0)
-      berkshelf (~> 2.0)
-      buff-platform (~> 0.1)
     systemu (2.5.2)
     thor (0.18.1)
     timers (2.0.0)
@@ -213,4 +209,3 @@ DEPENDENCIES
   chefspec (~> 1.2.0)
   foodcritic
   json (<= 1.7.7)
-  strainer
