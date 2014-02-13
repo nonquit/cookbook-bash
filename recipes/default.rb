@@ -17,16 +17,16 @@
 # limitations under the License.
 #
 
-zone = node["fqdn"].split(".")[2]
+zone = node['fqdn'].split('.')[2]
 
-package "bash" do
+package 'bash' do
   action :upgrade
 end
 
-template "/root/.bashrc" do
-  source "bashrc.erb"
-  owner  "root"
-  group  "root"
+template '/root/.bashrc' do
+  source 'bashrc.erb'
+  owner  'root'
+  group  'root'
   mode   00644
 
   variables(
@@ -34,10 +34,10 @@ template "/root/.bashrc" do
   )
 end
 
-template "/etc/bash.bashrc" do
-  source "bash.bashrc.erb"
-  owner  "root"
-  group  "root"
+template '/etc/bash.bashrc' do
+  source 'bash.bashrc.erb'
+  owner  'root'
+  group  'root'
   mode   00644
 
   variables(
@@ -45,10 +45,10 @@ template "/etc/bash.bashrc" do
   )
 end
 
-template "/etc/skel/.bashrc" do
-  source "bashrc.erb"
-  owner  "root"
-  group  "root"
+template '/etc/skel/.bashrc' do
+  source 'bashrc.erb'
+  owner  'root'
+  group  'root'
   mode   0644
 
   variables(
